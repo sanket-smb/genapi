@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include genapi *.css
+recursive-include genapi *.csv
+recursive-include genapi *.html
+recursive-include genapi *.ico
+recursive-include genapi *.js
+recursive-include genapi *.json
+recursive-include genapi *.md
+recursive-include genapi *.png
+recursive-include genapi *.py
+recursive-include genapi *.svg
+recursive-include genapi *.txt
+recursive-exclude genapi *.pyc
